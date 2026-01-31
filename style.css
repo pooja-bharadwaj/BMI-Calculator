@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Courier New", Courier, monospace;
+  background: linear-gradient(to left bottom, lightgreen, lightblue);
+}
+
+.bmi-container {
+  background: rgba(255, 255, 255, 0.3);
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input {
+  height: 2.5em;
+  background: rgba(255, 255, 255, 0.4);
+  border-color: rgba(255, 255, 255, 0.5);
+  padding: 10px 20px;
+  font-size: 18px;
+  margin: 10px;
+}
+
+.compute-bmi {
+  height: 2.5em;
+  padding: 10px 20px;
+  font-size: 20px;
+  background-color: lightgreen;
+  margin: 10px;
+  cursor: pointer;
+  border: none;
+  font-weight: 500;
+  transition: box-shadow 0.5s ease 0s;
+}
+
+.compute-bmi:hover {
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+}
+
+h4 {
+  font-weight: 400;
+  font-size: 20px;
+}
+
+p {
+  font-size: 18px;
+}
